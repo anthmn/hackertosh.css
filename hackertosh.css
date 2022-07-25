@@ -23,3 +23,10 @@ body {
         1px 1px 0px var(--mac-black) !important;
     margin-top: 40px !important;
 }
+
+#hnmain>tbody:nth-child(1)>tr:nth-child(1)>td:nth-child(1) {
+    box-shadow:
+        inset -1px 0px 0px var(--mac-dark-grey),
+        inset 1px 1px 0px var(--mac-white) !important;
+    background-color: var(--mac-light-grey) !important;
+}
