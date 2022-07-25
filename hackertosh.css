@@ -14,3 +14,12 @@ body {
     background-attachment: fixed !important;
     padding-bottom: 100px;
 }
+
+#hnmain {
+    border: 1px solid var(--mac-black) !important;
+    background-color: var(--mac-white) !important;
+    box-shadow:
+        inset -1px -1px 0px var(--mac-dark-grey),
+        1px 1px 0px var(--mac-black) !important;
+    margin-top: 40px !important;
+}
