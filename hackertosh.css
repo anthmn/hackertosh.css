@@ -84,3 +84,7 @@ body {
         inset 5px 5px 0px var(--mac-black),
         inset 0px -1px 0px var(--mac-black);
 }
+
+[href="https://news.ycombinator.com"]>img {
+    display: none !important;
+}
