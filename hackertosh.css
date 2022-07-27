@@ -67,3 +67,20 @@ body {
 .votearrow {
     background-image: var(--mac-up-arrow);
 }
+
+#hnmain>tbody:nth-child(1)>tr:nth-child(3)>td:nth-child(1) {
+    padding: 5px !important;
+    padding-left: 9px !important;
+    box-shadow:
+        inset 0px 4px 0px var(--mac-light-grey),
+        inset -1px 0px 0px var(--mac-dark-grey),
+        inset -3px 0px 0px var(--mac-light-grey),
+        inset -4px 0px 0px var(--mac-white),
+        inset -5px 0px 0px var(--mac-black),
+        inset -4px 0px 0px var(--mac-light-grey),
+        inset 1px 0px 0px var(--mac-white),
+        inset 3px 3px 0px var(--mac-light-grey),
+        inset 4px 4px 0px var(--mac-dark-grey),
+        inset 5px 5px 0px var(--mac-black),
+        inset 0px -1px 0px var(--mac-black);
+}
