@@ -99,3 +99,9 @@ body {
         var(--mac-window-decoration-center) 300px 5px repeat-x !important;
     margin-bottom: -4px !important;
 }
+
+#hnmain>tbody:nth-child(1)>tr:nth-child(1)>td:nth-child(1)>table:nth-child(1)>tbody:nth-child(1)>tr:nth-child(1)>td:nth-child(2) {
+    text-align: center;
+    padding-left: 6px !important;
+    background-color: var(--mac-light-grey) !important;
+}
