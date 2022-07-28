@@ -144,3 +144,10 @@ body {
         var(--mac-bottom-scroll-bar-right) bottom right no-repeat,
         var(--mac-bottom-scroll-bar-center) bottom center repeat-x;
 }
+
+#hnmain>tbody:nth-child(1)>tr:nth-child(4)>td:nth-child(1) {
+    background-color: var(--mac-light-grey) !important;
+    box-shadow:
+        inset 1px 0px 0px var(--mac-white),
+        inset -1px 0px 0px var(--mac-dark-grey) !important;
+}
