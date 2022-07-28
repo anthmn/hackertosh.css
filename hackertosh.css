@@ -171,3 +171,7 @@ body {
 .titlelink:hover {
     text-decoration: underline !important;
 }
+
+form {
+    color: var(--mac-black) !important;
+}
