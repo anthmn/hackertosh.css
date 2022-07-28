@@ -155,3 +155,14 @@ body {
 .itemlist {
     padding-top: 5px !important;
 }
+
+#hnmain>tbody:nth-child(1)>tr:nth-child(1)>td:nth-child(1)>table:nth-child(1)>tbody:nth-child(1)>tr:nth-child(1) {
+    display: flex;
+    height: 14px;
+    padding-top: 1px !important;
+    background-color: var(--mac-light-grey) !important;
+}
+
+#hnmain>tbody:nth-child(1)>tr:nth-child(1)>td:nth-child(1)>table:nth-child(1)>tbody:nth-child(1)>tr:nth-child(1)>td:nth-child(1) {
+    display: none !important;
+}
