@@ -151,3 +151,7 @@ body {
         inset 1px 0px 0px var(--mac-white),
         inset -1px 0px 0px var(--mac-dark-grey) !important;
 }
+
+.itemlist {
+    padding-top: 5px !important;
+}
