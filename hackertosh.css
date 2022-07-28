@@ -166,3 +166,8 @@ body {
 #hnmain>tbody:nth-child(1)>tr:nth-child(1)>td:nth-child(1)>table:nth-child(1)>tbody:nth-child(1)>tr:nth-child(1)>td:nth-child(1) {
     display: none !important;
 }
+
+.pagetop a:hover,
+.titlelink:hover {
+    text-decoration: underline !important;
+}
