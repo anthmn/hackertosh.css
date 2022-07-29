@@ -189,3 +189,73 @@ input[type="text"] {
         -1px 0px 0px var(--mac-dark-grey),
         0px -1px 0px var(--mac-dark-grey);
 }
+
+.comhead>.hnuser[href^="user?id=a"],
+.comhead>.hnuser[href^="user?id=g"],
+.comhead>.hnuser[href^="user?id=m"],
+.comhead>.hnuser[href^="user?id=s"],
+.comhead>.hnuser[href^="user?id=y"],
+.comhead>a[href^="from?site=a"],
+.comhead>a[href^="from?site=g"],
+.comhead>a[href^="from?site=m"],
+.comhead>a[href^="from?site=s"],
+.comhead>a[href^="from?site=y"] {
+    color: #ce002e !important;
+}
+
+.comhead>.hnuser[href^="user?id=b"],
+.comhead>.hnuser[href^="user?id=h"],
+.comhead>.hnuser[href^="user?id=n"],
+.comhead>.hnuser[href^="user?id=t"],
+.comhead>.hnuser[href^="user?id=z"],
+.comhead>a[href^="from?site=b"],
+.comhead>a[href^="from?site=h"],
+.comhead>a[href^="from?site=n"],
+.comhead>a[href^="from?site=t"],
+.comhead>a[href^="from?site=z"] {
+    color: #ff6600 !important;
+}
+
+.comhead>.hnuser[href^="user?id=c"],
+.comhead>.hnuser[href^="user?id=i"],
+.comhead>.hnuser[href^="user?id=u"],
+.comhead>.hnuser[href^="user?id=o"],
+.comhead>a[href^="from?site=c"],
+.comhead>a[href^="from?site=i"],
+.comhead>a[href^="from?site=o"],
+.comhead>a[href^="from?site=u"] {
+    color: #cd9a00 !important;
+}
+
+.comhead>.hnuser[href^="user?id=d"],
+.comhead>.hnuser[href^="user?id=j"],
+.comhead>.hnuser[href^="user?id=p"],
+.comhead>.hnuser[href^="user?id=v"],
+.comhead>a[href^="from?site=d"],
+.comhead>a[href^="from?site=j"],
+.comhead>a[href^="from?site=p"],
+.comhead>a[href^="from?site=v"] {
+    color: #2d9a2c !important;
+}
+
+.comhead>.hnuser[href^="user?id=e"],
+.comhead>.hnuser[href^="user?id=k"],
+.comhead>.hnuser[href^="user?id=q"],
+.comhead>.hnuser[href^="user?id=w"],
+.comhead>a[href^="from?site=e"],
+.comhead>a[href^="from?site=k"],
+.comhead>a[href^="from?site=q"],
+.comhead>a[href^="from?site=w"] {
+    color: #0098ce !important;
+}
+
+.comhead>.hnuser[href^="user?id=f"],
+.comhead>.hnuser[href^="user?id=l"],
+.comhead>.hnuser[href^="user?id=r"],
+.comhead>.hnuser[href^="user?id=x"],
+.comhead>a[href^="from?site=f"],
+.comhead>a[href^="from?site=l"],
+.comhead>a[href^="from?site=r"],
+.comhead>a[href^="from?site=x"] {
+    color: #672e9b !important;
+}
