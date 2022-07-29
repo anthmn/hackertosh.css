@@ -138,14 +138,6 @@ body {
     padding-right: 8px !important;
 }
 
-#hnmain {
-    z-index: 100;
-    background:
-        var(--mac-bottom-scroll-bar-left) bottom left no-repeat,
-        var(--mac-bottom-scroll-bar-right) bottom right no-repeat,
-        var(--mac-bottom-scroll-bar-center) bottom center repeat-x;
-}
-
 #hnmain>tbody:nth-child(1)>tr:nth-child(4)>td:nth-child(1) {
     background-color: var(--mac-light-grey) !important;
     box-shadow:
