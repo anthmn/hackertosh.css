@@ -16,6 +16,7 @@
     --mac-window-decoration-left: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAANCAIAAADJ8LI3AAAABmJLR0QA/wD/AP+gvaeTAAAAd0lEQVQokeWSwQ0AIQgE14sNUIstWIOt2Au12AIlWIv3MDEGUe9/+zBhw0CI61prIgKglIKbYozK8XPBzGc+59yX2TyAWqvqGEoprabmRaTzRDS/u+se01Ww2bPlV/gw4u/79f/hWxC3vBmSg9zIP4AQwhVQ6XwBG78rhboVHDsAAAAASUVORK5CYII=');
     --mac-window-decoration-right: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAANCAIAAAChAzAPAAAABmJLR0QA/wD/AP+gvaeTAAAAs0lEQVQ4jb2UQRHEIAxF0501gBYsoAEreImEYAEJREKxgIU99MJAoFk603/ope/392cyOXLO0CilBHdyzu3xzPwdXyPi2h9CYOY9XsgDgPM82y+28t4/4eU8Zr78xpj2OZuenv+I/kudeUHqebmfOLSF9LycR0SllPF/Y4ziduh5OQ+k4SxG+rTfLHImIqq1jjwidv2m+/JXPz0/7ac5HBv82/t5dPcTAKy1t7b2muh5Zv4BNklkzBfdI3UAAAAASUVORK5CYII= ');
     --mac-window-decoration-center: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAMCAIAAAAs6UAAAAAABmJLR0QA/wD/AP+gvaeTAAAAE0lEQVQImWP4//8/Q3l5OQORNACKjhpN62AIAgAAAABJRU5ErkJggg==');
+    --mac-apple-icon: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAABmJLR0QA/wD/AP+gvaeTAAABJElEQVQ4jb2SQU7DMBBFXxo2XAIpsEMtUhtT5UJJ2HAPrmAjcQDEQao0biRAbCv1DohN0mHRKCQkTb1AfMmyZ/znz4zH8N+YmamM3Z+5iMTmWir1ydsIZ+IiAuDn21HeSSGASn2R2/kox/vtmJmpROxZ1Tki3qlUgJ+fs2JCxJ7cflDobmzHiA0SKoALYAdARsCSiowdy9qfEfC02PaKAEAbRMRhWSRJ6U2wURXbvxzCxkKY9J/kZ/zaRQbscENuU2tDrU8QNiDiuF5AAL8d37T2DMCNU1WXwCN+GVM0jTZCD+BdcS8hAqyB24H9AIutT0Xjaz+dH87TUlXKqSr9Gh//kAeGEaQl5uV0bIC7RS9uaJg+2pQAWAtGe00CgDQ58gH+CN+wTobv3gZtkQAAAABJRU5ErkJggg==');
 }
 
 body {
@@ -258,4 +259,10 @@ input[type="text"] {
 .comhead>a[href^="from?site=r"],
 .comhead>a[href^="from?site=x"] {
     color: #672e9b !important;
+}
+
+.comhead>a[href$="apple.com"]:before {
+    content: "---";
+    color: #ffffff00;
+    background: var(--mac-apple-icon) 0px;
 }
