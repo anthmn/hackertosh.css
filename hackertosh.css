@@ -175,3 +175,17 @@ body {
 form {
     color: var(--mac-black) !important;
 }
+
+input[type="text"] {
+    border-radius: 0px !important;
+    border: 0px !important;
+    box-shadow:
+        inset 1px 1px 0px var(--mac-black),
+        inset -1px -1px 0px var(--mac-black),
+        1px 1px 0px var(--mac-white),
+        0px 1px 0px var(--mac-white),
+        1px 0px 0px var(--mac-white),
+        -1px -1px 0px var(--mac-dark-grey),
+        -1px 0px 0px var(--mac-dark-grey),
+        0px -1px 0px var(--mac-dark-grey);
+}
