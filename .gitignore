@@ -1,4 +1,4 @@
-.vscode/*
+vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
@@ -63,8 +63,6 @@
 # Calabash / Cucumber
 rerun/
 reports/
-screenshots/
-screenshot*.png
 test-servers/
 
 # bundler
