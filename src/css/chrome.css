@@ -1,0 +1,20 @@
+:root {
+    /* Images. */
+    --mac-background: url('chrome-extension://__MSG_@@extension_id__/assets/mac-background.png');
+    --mac-panel-left: url('chrome-extension://__MSG_@@extension_id__/assets/mac-panel-left.png');
+    --mac-panel-center: url('chrome-extension://__MSG_@@extension_id__/assets/mac-panel-center.png');
+    --mac-panel-right: url('chrome-extension://__MSG_@@extension_id__/assets/mac-panel-right.png');
+    --mac-desktop-icons: url('chrome-extension://__MSG_@@extension_id__/assets/mac-desktop-icons.png');
+    --mac-folder-icon: url('chrome-extension://__MSG_@@extension_id__/assets/mac-folder-icon.png');
+    --mac-up-arrow: url('chrome-extension://__MSG_@@extension_id__/assets/mac-up-arrow.png');
+    --mac-window-decoration-left: url('chrome-extension://__MSG_@@extension_id__/assets/mac-window-decoration-left.png');
+    --mac-window-decoration-right: url('chrome-extension://__MSG_@@extension_id__/assets/mac-window-decoration-right.png');
+    --mac-window-decoration-center: url('chrome-extension://__MSG_@@extension_id__/assets/mac-window-decoration-center.png');
+    --mac-apple-icon: url('chrome-extension://__MSG_@@extension_id__/assets/mac-apple-icon.png');
+}
+
+/* Fonts. */
+@font-face {
+    font-family: 'Virtue';
+    src: url('chrome-extension://__MSG_@@extension_id__/assets/virtue.ttf');
+}
