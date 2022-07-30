@@ -1,0 +1,31 @@
+{
+
+    "manifest_version": 2,
+    "name": "",
+    "version": "1.0",
+
+    "description": "",
+    "homepage_url": "",
+    "icons": {
+        "16": "icons/icon-16.png",
+        "48": "icons/icon-48.png",
+        "128": "icons/icon-128.png"
+    },
+
+    "permissions": ["tabs", "*://news.ycombinator.com/*"],
+
+    "content_scripts": [{
+        "matches": ["*://news.ycombinator.com/*"],
+        "css": ["index.css"]
+    }],
+
+    "web_accessible_resources": [
+        "assets/*"
+    ],
+
+    "browser_specific_settings": {
+        "gecko": {
+            "id": ""
+        }
+    }
+}
