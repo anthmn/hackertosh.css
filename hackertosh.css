@@ -273,3 +273,16 @@ input[type="text"] {
     color: #ffffff00;
     background: var(--mac-apple-icon) 0px;
 }
+
+.itemlist tbody tr:nth-child(1) .rank:before,
+.itemlist tbody tr:nth-child(4) .rank:before,
+.itemlist tbody tr:nth-child(7) .rank:before,
+.itemlist tbody tr:nth-child(10) .rank:before,
+.itemlist tbody tr:nth-child(13) .rank:before,
+.itemlist tbody tr:nth-child(16) .rank:before,
+.itemlist tbody tr:nth-child(19) .rank:before,
+.itemlist tbody tr:nth-child(22) .rank:before,
+.itemlist tbody tr:nth-child(25) .rank:before {
+    content: '0' !important;
+    color: var(--mac-white) !important;
+}
