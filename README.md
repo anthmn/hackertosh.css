@@ -8,4 +8,7 @@ A custom style sheet to make [HackerNews](https://news.ycombinator.com/) look li
 
 ## License
 
-(C) 2022 Anthony Mancini. Licensed under AGPL-3.0.
+CSS code (C) 2022 Anthony Mancini. Licensed under AGPL-3.0.
+
+Virtue font (C) 1997-1999 Marty P. Pfeiffer at Scooter Graphics.
+
