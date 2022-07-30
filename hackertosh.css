@@ -80,7 +80,7 @@ body {
 
 .rank {
     background: var(--mac-folder-icon) no-repeat;
-    padding-left: 20px !important;
+    padding-left: 18px !important;
 }
 
 .votearrow {
@@ -89,7 +89,7 @@ body {
 
 #hnmain>tbody:nth-child(1)>tr:nth-child(3)>td:nth-child(1) {
     padding: 5px !important;
-    padding-left: 9px !important;
+    padding-left: 12px !important;
     box-shadow:
         inset 0px 4px 0px var(--mac-light-grey),
         inset -1px 0px 0px var(--mac-dark-grey),
