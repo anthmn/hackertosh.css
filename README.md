@@ -6,13 +6,13 @@
   </a>
 </div>
 
+A custom style sheet to make [HackerNews](https://news.ycombinator.com/) look like MacOS 8.
+
 <div>
   <center>
     <img src="screenshots/screenshot-1.png" />
   </center>
 </div>
-
-A custom style sheet to make [HackerNews](https://news.ycombinator.com/) look like MacOS 8.
 
 ## Installation
 
