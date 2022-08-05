@@ -11,8 +11,8 @@
         "128": "icons/icon-128.png"
     },
 
-    "permissions": ["tabs"],
-    "host_permissions": ["*://news.ycombinator.com/*"],
+    "permissions": [],
+    "host_permissions": [],
 
     "content_scripts": [{
         "matches": ["*://news.ycombinator.com/*"],
