@@ -4,6 +4,9 @@
   <a href="https://addons.mozilla.org/en-US/firefox/addon/hackertosh-css/">
     <img src="screenshots/badge-amo.png" />
   </a>
+  <a href="https://chrome.google.com/webstore/detail/hackertoshcss/fnnkhdohmjncdpccgbobnniiccnacpcn">
+    <img src="screenshots/badge-chrome.png" />
+  </a>
 </div>
 
 A custom style sheet to make [HackerNews](https://news.ycombinator.com/) look like MacOS 8.
